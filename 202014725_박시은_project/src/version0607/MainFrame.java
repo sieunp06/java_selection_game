@@ -429,14 +429,6 @@ public class MainFrame extends JFrame{
 		//startIcon
 		StartIcon.addMouseListener(new MouseAdapter() {
 			@Override
-			public void mouseEntered(MouseEvent e) {	//마우스 들어갔을 때
-				
-			}
-			@Override
-			public void mouseExited(MouseEvent e) {		//마우스가 나왔을 때
-				
-			}
-			@Override
 			public void mousePressed(MouseEvent e) {	//클릭했을 때
 				page1.setVisible(false);
 				page2one.setVisible(true);
@@ -448,14 +440,6 @@ public class MainFrame extends JFrame{
 		//nextIcon_1
 		nextIcon_1.addMouseListener(new MouseAdapter() {
 			@Override
-			public void mouseEntered(MouseEvent e) {	//마우스 들어갔을 때
-						
-			}
-			@Override
-			public void mouseExited(MouseEvent e) {		//마우스가 나왔을 때
-						
-			}
-			@Override
 			public void mousePressed(MouseEvent e) {	//클릭했을 때
 				nextIcon_1.setVisible(false);
 				nextIcon_2.setVisible(true);
@@ -466,14 +450,6 @@ public class MainFrame extends JFrame{
 		//nextIcon_2
 			//특징 선택
 		nextIcon_2.addMouseListener(new MouseAdapter() {
-			@Override
-			public void mouseEntered(MouseEvent e) {	//마우스 들어갔을 때
-						
-			}
-			@Override
-			public void mouseExited(MouseEvent e) {		//마우스가 나왔을 때
-						
-			}
 			@Override
 			public void mousePressed(MouseEvent e) {	//클릭했을 때
 				nextIcon_2.setVisible(false);
@@ -565,14 +541,6 @@ public class MainFrame extends JFrame{
 		//choice1_1
 		choice1_1.addMouseListener(new MouseAdapter() {
 			@Override
-			public void mouseEntered(MouseEvent e) {	//마우스 들어갔을 때
-				
-			}
-			@Override
-			public void mouseExited(MouseEvent e) {		//마우스가 나왔을 때
-			
-			}
-			@Override
 			public void mousePressed(MouseEvent e) {	//클릭했을 때
 				event.choice1_1();
 				
@@ -588,14 +556,6 @@ public class MainFrame extends JFrame{
 		});
 		//choice1_2
 		choice1_2.addMouseListener(new MouseAdapter() {
-			@Override
-			public void mouseEntered(MouseEvent e) {	//마우스 들어갔을 때
-				
-			}
-			@Override
-			public void mouseExited(MouseEvent e) {		//마우스가 나왔을 때
-				
-			}
 			@Override
 			public void mousePressed(MouseEvent e) {	//클릭했을 때
 				event.choice1_2();
@@ -615,14 +575,6 @@ public class MainFrame extends JFrame{
 		//choice2_1
 		choice2_1.addMouseListener(new MouseAdapter() {
 			@Override
-			public void mouseEntered(MouseEvent e) {	//마우스 들어갔을 때
-				
-			}
-			@Override
-			public void mouseExited(MouseEvent e) {		//마우스가 나왔을 때
-				
-			}
-			@Override
 			public void mousePressed(MouseEvent e) {	//클릭했을 때
 				event.choice2_1();
 				
@@ -640,14 +592,6 @@ public class MainFrame extends JFrame{
 		//choice2_2
 		choice2_2.addMouseListener(new MouseAdapter() {
 			@Override
-			public void mouseEntered(MouseEvent e) {	//마우스 들어갔을 때
-				
-			}
-			@Override
-			public void mouseExited(MouseEvent e) {		//마우스가 나왔을 때
-				
-			}
-			@Override
 			public void mousePressed(MouseEvent e) {	//클릭했을 때
 				event.choice2_2();
 				
@@ -663,14 +607,6 @@ public class MainFrame extends JFrame{
 		});
 		//choice2_3
 		choice2_3.addMouseListener(new MouseAdapter() {
-			@Override
-			public void mouseEntered(MouseEvent e) {	//마우스 들어갔을 때
-				
-			}
-			@Override
-			public void mouseExited(MouseEvent e) {		//마우스가 나왔을 때
-				
-			}
 			@Override
 			public void mousePressed(MouseEvent e) {	//클릭했을 때
 				event.choice2_3();
@@ -690,14 +626,6 @@ public class MainFrame extends JFrame{
 		//choice3_1
 		choice3_1.addMouseListener(new MouseAdapter() {
 			@Override
-			public void mouseEntered(MouseEvent e) {	//마우스 들어갔을 때
-				
-			}
-			@Override
-			public void mouseExited(MouseEvent e) {		//마우스가 나왔을 때
-				
-			}
-			@Override
 			public void mousePressed(MouseEvent e) {	//클릭했을 때
 				event.choice3_1();
 				
@@ -712,14 +640,6 @@ public class MainFrame extends JFrame{
 		});
 		//choice3_2
 		choice3_2.addMouseListener(new MouseAdapter() {
-			@Override
-			public void mouseEntered(MouseEvent e) {	//마우스 들어갔을 때
-				
-			}
-			@Override
-			public void mouseExited(MouseEvent e) {		//마우스가 나왔을 때
-				
-			}
 			@Override
 			public void mousePressed(MouseEvent e) {	//클릭했을 때
 				event.choice3_2();
@@ -739,14 +659,6 @@ public class MainFrame extends JFrame{
 		//choice4_1
 		choice4_1.addMouseListener(new MouseAdapter() {
 			@Override
-			public void mouseEntered(MouseEvent e) {	//마우스 들어갔을 때
-				
-			}
-			@Override
-			public void mouseExited(MouseEvent e) {		//마우스가 나왔을 때
-				
-			}
-			@Override
 			public void mousePressed(MouseEvent e) {	//클릭했을 때
 				event.choice4_1();
 				
@@ -761,14 +673,6 @@ public class MainFrame extends JFrame{
 		});
 		//choice4_2
 		choice4_2.addMouseListener(new MouseAdapter() {
-			@Override
-			public void mouseEntered(MouseEvent e) {	//마우스 들어갔을 때
-				
-			}
-			@Override
-			public void mouseExited(MouseEvent e) {		//마우스가 나왔을 때
-				
-			}
 			@Override
 			public void mousePressed(MouseEvent e) {	//클릭했을 때
 				event.choice4_2();
